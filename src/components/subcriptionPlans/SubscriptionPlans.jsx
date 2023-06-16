@@ -10,7 +10,7 @@ const SubscriptionPlans = () => {
   const [subscription, setSubscription] = useState(null);
   const user = useSelector(selectUser);
   const stripeApiPublic =
-    'pk_test_51MeRmxCARevntN5SBBA7cKa5THdErcedIoRJyG5IvLvwbaZQALo2nystHqGUCXRerhZSkq8BnJvTmEIHU9KSjmMR00WJRI6b3Y';
+    'apikey';
 
   useEffect(() => {
     db.collection('customers')
