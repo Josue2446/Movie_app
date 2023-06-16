@@ -1,0 +1,32 @@
+.plans-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  opacity: 0.8;
+}
+.plans-info:hover {
+  opacity: 1;
+}
+
+.plans-info-current > button {
+  background-color: green !important;
+}
+
+.plans-btn {
+  padding: 10px 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: #e50914;
+  max-height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.plans-name {
+  color: #e50914;
+}
+
+.plans-description {
+  font-weight: 300;
+  font-size: 1rem;
+}
